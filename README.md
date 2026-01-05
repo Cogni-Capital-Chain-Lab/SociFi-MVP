@@ -1,8 +1,8 @@
-# <img src="client/src/assets/img/logo-icon.png" alt="MultiBank.io Logo" width="48" style="vertical-align:middle;"/> Astrabyte - Web3 Social – GameFi Platform V2
+# <img src="client/src/assets/img/logo-icon.png" alt="MultiBank.io Logo" width="48" style="vertical-align:middle;"/> Web3 Social – GameFi Platform
 
 ## Next-Generation Crypto Game Platform
 
-**Web3 Social Platform** is the next leap in blockchain gaming, brought to you by [Astra Byte ](https://astrabytesyncs.com/) — one of the world's largest financial derivatives brokers ($18B+ daily trading volume, regulated in 20+ jurisdictions).
+**Web3 Social Platform** is the next leap in blockchain gaming, one of the world's largest financial derivatives brokers ($18B+ daily trading volume, regulated in 20+ jurisdictions).
 
 > **Revolutionizing Web3 GameFi:**
 > Play, earn, and own your experience in a decentralized poker ecosystem. Host, join, and spectate games while earning real crypto rewards via our Play-to-Earn (P2E) model. Enjoy traditional poker mechanics fused with Web3 innovations: token staking, NFT avatars, and on-chain game logic for a fair, transparent, and rewarding experience.
